@@ -3,16 +3,21 @@
   "version": "1.0.0",
   "description": "This is a project to quickly deploy a sample React app to AWS using the CDK.",
   "scripts": {
+    "preinstall-deps": "npx pnpm install",
+    "install-deps": "npm-run-all install-deps:*",
+    "install-deps:cdk": "cd cdk && npx pnpm install",
+    "install-deps:client": "cd client && npx pnpm install",
     "build:cdk": "cd cdk && npm run build",
     "build:client": "cd client && npm run build",
     "build": "npm-run-all build:*",
     "deploy": "npm run build && npm run deploy:cdk",
     "deploy:cdk": "cd cdk && npm run cdk deploy",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "destroy": "cd cdk && npm run cdk destroy"
   },
   "author": "Joel Venable",
   "license": "ISC",
   "dependencies": {
-    "npm-run-all": "^4.1.5"
+    "npm-run-all": "^4.1.5",
+    "pnpm": "^5.4.3"
   }
 }

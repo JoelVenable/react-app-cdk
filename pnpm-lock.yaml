@@ -1,5 +1,6 @@
 dependencies:
   npm-run-all: 4.1.5
+  pnpm: 5.4.3
 lockfileVersion: 5.1
 packages:
   /ansi-styles/3.2.1:
@@ -291,6 +292,13 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha1-5aSs0sEB/fPZpNB/DbxNtJ3SgXY=
+  /pnpm/5.4.3:
+    dev: false
+    engines:
+      node: '>=10.13'
+    hasBin: true
+    resolution:
+      integrity: sha512-Q9H70UBLnTJT8ikESW4ERC1/Yz7nPj1OmJbzNwuVcKVRHNMzSDTEBWjt0a3WFXsHi4Cfwd9gtBppTvY8lmkN/A==
   /read-pkg/3.0.0:
     dependencies:
       load-json-file: 4.0.0
@@ -405,3 +413,4 @@ packages:
       integrity: sha512-HxJdYWq1MTIQbJ3nw0cqssHoTNU267KlrDuGZ1WYlxDStUtKUhOaJmh112/TZmHxxUfuJqPXSOm7tDyas0OSIQ==
 specifiers:
   npm-run-all: ^4.1.5
+  pnpm: ^5.4.3
