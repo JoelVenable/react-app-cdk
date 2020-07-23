@@ -1,0 +1,16 @@
+bin/*.js
+bin/*.d.ts
+lib/*.js
+lib/*.d.ts
+test/*.js
+test/*.d.ts
+!jest.config.js
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# Parcel build directories
+.cache
+.build

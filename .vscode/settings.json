@@ -1,0 +1,16 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true,
+        "cdk/bin/**/*.js": true,
+        "cdk/bin/**/*.d.ts": true,
+        "cdk/test/**/*.js": true,
+        "cdk/test/**/*.d.ts": true,
+        "cdk/lib/**/*.js": true,
+        "cdk/lib/**/*.d.ts": true
+    }
+}

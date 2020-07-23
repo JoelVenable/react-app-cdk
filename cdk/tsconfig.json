@@ -1,4 +1,5 @@
 {
+  "include": ["lib/**/*", "bin/**/*"],
   "compilerOptions": {
     "target": "ES2018",
     "module": "commonjs",
